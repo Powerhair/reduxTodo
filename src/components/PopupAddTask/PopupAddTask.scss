@@ -1,0 +1,17 @@
+.popup-add {
+  &__input {
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    padding-bottom: 13px;
+    margin: 0;
+    max-width: 358px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+}
